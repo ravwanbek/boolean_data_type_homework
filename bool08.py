@@ -10,5 +10,5 @@ def main(a):
     x=a>=0
     
     return x
-x=main(6)
+x=main(8)
 print(x)
