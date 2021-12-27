@@ -6,9 +6,9 @@ def main(a):
     Returns:
         bool
     """
-    x=a>=0
+    x=a>=0 and a%1==0
     
-    return int(x)
+    return x
 
-x=main(0)
+x=main(2)
 print(x)
