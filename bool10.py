@@ -10,10 +10,10 @@ def main(a):
     """
     # Write your code here
     
-    x=pow(int(sqrt(a)+0.5),2)==a
+    x=pow(int(sqrt(a)),2)==a
 
 
     return x
 
-x=main(85)
+x=main(81)
 print(x)
