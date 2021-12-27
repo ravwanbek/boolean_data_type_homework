@@ -7,4 +7,10 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+
+    x=a%2>0
+    
+    return x
+
+x=main(5)
+print(x) 
