@@ -1,3 +1,6 @@
+
+from math import sqrt, pow
+
 def main(a):
     """check that the number "a" is a perfect square.
     Args:
@@ -6,4 +9,11 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    
+    x=pow(int(sqrt(a)+0.5),2)==a
+
+
+    return x
+
+x=main(85)
+print(x)
