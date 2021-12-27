@@ -8,4 +8,10 @@ def main(a,b):
         bool
     """
     # Write your code here
-    return 
+    x=a==b
+    
+    
+    return x   
+
+x=main(10,11)
+print(x)
